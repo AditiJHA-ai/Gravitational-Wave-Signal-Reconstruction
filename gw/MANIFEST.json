@@ -1,0 +1,41 @@
+{
+  "created": "2026-10-01T19:53:03",
+  "source": "D:\\GW_Research",
+  "copied": [
+    "results/RESULTS_EXPORT.json  (149 KB)",
+    "results/model_comparison_final.csv  (0 KB)",
+    "results/multiseed_results_final.pkl  (51 KB)",
+    "results/multiseed_results.pkl  (26 KB)",
+    "results/multiseed_results_warmup.pkl  (29 KB)",
+    "results/arrays_for_figures.npz  (1708 KB)",
+    "results/training_log.txt  (2 KB)",
+    "figures/fig_parameter_space.png  (2026 KB)",
+    "figures/fig_training_curves.png  (262 KB)",
+    "figures/fig_seed_distribution.png  (114 KB)",
+    "figures/fig_overlap_vs.png  (208 KB)",
+    "figures/overlap_vs_horizon.png  (91 KB)",
+    "figures/phase_error_analysis.png  (249 KB)",
+    "figures/robustness_controls.png  (121 KB)",
+    "figures/ablation1_single_vs_dual.png  (103 KB)",
+    "figures/ablation_alpha_sensitivity.png  (170 KB)",
+    "figures/LSTM_val_predictions.png  (496 KB)",
+    "figures/Transformer_val_predictions.png  (491 KB)",
+    "figures/LSTM_ood_q_predictions.png  (561 KB)",
+    "figures/Transformer_ood_q_predictions.png  (595 KB)",
+    "code/build_bank.py  (3 KB)",
+    "code/make_paper_figures.py  (7 KB)",
+    "code/1GW_ScientificReports_TF_FIXED (1).ipynb",
+    "code/GW_Resubmission_v2.ipynb",
+    "code/GW_ScientificReports_TF.ipynb",
+    "code/GW_ScientificReports_TF_FIXED (4).ipynb",
+    "code/GW_ScientificReports_TF_FIXED.ipynb"
+  ],
+  "missing": [],
+  "excluded_large": [
+    "bank_jitter.npz",
+    "bank_aligned.npz",
+    "ckpt/",
+    "*.hdf5"
+  ],
+  "stale_still_in_source": []
+}

@@ -1,0 +1,18 @@
+transformer seed 0: val 0.5827 | ood_q 0.4934 | ood_spin 0.5225 | ood_mass 0.4497 | 5.4 min
+transformer seed 1: val 0.0032 | ood_q 0.0024 | ood_spin -0.0013 | ood_mass -0.0003 | 0.9 min
+transformer seed 2: val 0.6678 | ood_q 0.6023 | ood_spin 0.6016 | ood_mass 0.4912 | 5.6 min
+transformer seed 3: val 0.3432 | ood_q 0.2523 | ood_spin 0.2972 | ood_mass 0.2264 | 6.0 min
+transformer seed 4: val 0.6727 | ood_q 0.6220 | ood_spin 0.6364 | ood_mass 0.5162 | 6.0 min
+seed 1 warmup10         val overlap 0.6567
+seed 1 warmup10+clip1   val overlap 0.5774
+seed 1 warmup5+clip1    val overlap 0.6480
+FINAL lstm seed 0: val 0.8244 | ood_q 0.8002 | ood_spin 0.7987 | ood_mass 0.6292 | 100 ep | 14.7 min
+FINAL transformer seed 0: val 0.7114 | ood_q 0.6584 | ood_spin 0.6742 | ood_mass 0.6052 | 100 ep | 9.9 min
+FINAL lstm seed 1: val 0.8193 | ood_q 0.7941 | ood_spin 0.7915 | ood_mass 0.6161 | 100 ep | 14.6 min
+FINAL transformer seed 1: val 0.7062 | ood_q 0.6582 | ood_spin 0.6677 | ood_mass 0.5886 | 100 ep | 9.9 min
+FINAL lstm seed 2: val 0.8217 | ood_q 0.7983 | ood_spin 0.8022 | ood_mass 0.6540 | 100 ep | 14.5 min
+FINAL transformer seed 2: val 0.7160 | ood_q 0.6652 | ood_spin 0.6710 | ood_mass 0.5586 | 100 ep | 9.9 min
+FINAL lstm seed 3: val 0.8206 | ood_q 0.7958 | ood_spin 0.8008 | ood_mass 0.6398 | 100 ep | 14.6 min
+FINAL transformer seed 3: val 0.7194 | ood_q 0.6631 | ood_spin 0.6830 | ood_mass 0.5502 | 100 ep | 9.8 min
+FINAL lstm seed 4: val 0.8210 | ood_q 0.7968 | ood_spin 0.7878 | ood_mass 0.6793 | 100 ep | 14.6 min
+FINAL transformer seed 4: val 0.6898 | ood_q 0.6453 | ood_spin 0.6425 | ood_mass 0.5658 | 97 ep | 9.5 min
